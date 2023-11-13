@@ -1,13 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(5, 8, 22);
+}
+.viol {
+  background: -webkit-linear-gradient(
+    -90deg,
+    #804dee 0%,
+    rgba(60, 51, 80, 0) 100%
+  );
+}
+::-webkit-scrollbar {
+  width: 16px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar-track {
+  background: rgb(64, 60, 60);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #676365;
+}
+.drot {
+  transform: translateY(px) translateZ(0px);
+}
+@media (min-aspect-ratio: 16/9) {
+  .aaspectvide {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .aaspectvide {
+    width: auto;
+    height: 100%;
+  }
+}
+.green-pink-gradient {
+  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+}
+.shadow-card {
+  --tw-shadow: 0px 35px 120px -15px #211e35;
+  --tw-shadow-colored: 0px 35px 120px -15px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.poke {
+  content: "";
+  position: absolute;
+  top: 16px;
+  left: 100%;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-left: 7px solid rgb(35, 38, 49);
+}
+.pokee {
+  content: "";
+  position: absolute;
+  top: 16px;
+  right: 100%;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-right: 7px solid rgb(35, 38, 49);
+}
+.lad {
+  content: "";
+  position: absolute;
+  top: 70px;
+  right: -70px;
+  height: 100vh;
+  width: 4px;
+  background: #fff;
+}
+.ladm {
+  content: "";
+  position: absolute;
+  top: 70px;
+  right: -70px;
+  height: 284px;
+  width: 4px;
+  background: #fff;
+}
+.ladr {
+  content: "";
+  position: absolute;
+  top: -57px;
+  right: 83px;
+  height: 100vh;
+  width: 4px;
+  background: #fff;
+}
+.ladrs {
+  content: "";
+  position: absolute;
+  top: -137px;
+  right: 83px;
+  height: 455px;
+  width: 4px;
+  background: #fff;
+}
+.ladrsm {
+  content: "";
+  height: 100vh;
+  width: 4px;
+  background: #fff;
+}
+.ladrsmt {
+  content: "";
+  height: 582px;
+  width: 4px;
+  background: #fff;
+}
+.ladrsmet {
+  content: "";
+  height: 632px;
+  width: 4px;
+  background: #fff;
+}
+.ladraf {
+  content: "";
+  height: 432px;
+  width: 4px;
+  background: #fff;
+}
+.focum {
+  position: absolute;
+  top: -122px;
+  right: 50px;
+  height: 68px;
+  width: 68px;
+  background: rgb(230, 222, 221);
+}
+.focumty {
+  position: absolute;
+  top: -200px;
+  right: 50px;
+  height: 68px;
+  width: 68px;
+  background: rgb(230, 222, 221);
+}
+.focud {
+  position: absolute;
+  top: 2px;
+  right: -102px;
+  height: 68px;
+  width: 68px;
+  background: rgb(56, 62, 86);
+}
+.focudsm {
+  height: 48px;
+  width: 48px;
+  background: rgb(56, 62, 86);
+}
+.focudsmlr {
+  height: 48px;
+  width: 48px;
+  background: rgb(230, 222, 221);
+}
+.focudsmt {
+  height: 68px;
+  width: 68px;
+  background: rgb(230, 222, 221);
+}
+.befad {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: -70px;
+  height: 22px;
+  width: 4px;
+  background: #fff;
+}
+.befadsm {
+  content: "";
+
+  height: 22px;
+  width: 4px;
+  background: #fff;
+}
+.atp {
+  background: linear-gradient(to top, #2f80ed, #56ccf2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.canvaf {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: auto;
+  touch-action: none;
+}
+.canvase {
+  display: block;
+  width: 312px;
+  height: 350px;
+}
+.canv {
+  transform: translateX(0%) translateY(0px) translateZ(0px);
+}
+.conts {
+  transform: translateX(0%) translateY(0px) translateZ(0px);
 }
