@@ -48,6 +48,12 @@ body {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+.footee {
+  background-image: url(/public/assets/planet.jpg);
+}
+.tokenbg {
+  background-image: url(/public/assets/hero.png);
+}
 .poke {
   content: "";
   position: absolute;
@@ -112,13 +118,31 @@ body {
 }
 .ladrsmt {
   content: "";
-  height: 582px;
+  height: 592px;
   width: 4px;
   background: #fff;
 }
 .ladrsmet {
   content: "";
   height: 632px;
+  width: 4px;
+  background: #fff;
+}
+.ladrmd {
+  content: "";
+  height: 775px;
+  width: 4px;
+  background: #fff;
+}
+.ladrxd {
+  content: "";
+  height: 750px;
+  width: 4px;
+  background: #fff;
+}
+.ladrlg {
+  content: "";
+  height: 432px;
   width: 4px;
   background: #fff;
 }
@@ -180,6 +204,13 @@ body {
   content: "";
 
   height: 22px;
+  width: 4px;
+  background: #fff;
+}
+.befadsmo {
+  content: "";
+
+  height: 72px;
   width: 4px;
   background: #fff;
 }

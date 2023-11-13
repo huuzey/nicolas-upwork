@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Footervideo from "./Footvid";
 
 const Footer = () => {
   useEffect(() => {
@@ -11,12 +12,12 @@ const Footer = () => {
   const [address, setAddress] = useState("");
   const [say, setSay] = useState("");
   return (
-    <div
-      className="relative z-0 sm:mb-56 md:mb-0"
-      data-aos-delay="1000"
-      data-aos="fade-right"
-    >
-      <section className="sm:px-4 px-1.5 sm:py-4 py-2.5 max-w-7xl mx-auto relative z-0">
+    <div className="relative z-0 sm:mb-56 md:mb-0 footee">
+      <section
+        data-aos-delay="1000"
+        data-aos="fade-right"
+        className="sm:px-4 px-1.5 sm:py-4 py-2.5 max-w-7xl mx-auto relative z-0"
+      >
         <span id="contact">&nbsp;</span>
         <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
           {/* input contact */}
@@ -69,19 +70,10 @@ const Footer = () => {
               </button>
             </form>
           </div>
-          {/* canva */}
-          {/* <div className=" canv xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
-            <div className="canvaf">
-              <div className="w-full h-full">
-                <canvas
-                  data-engine="three.js r.149"
-                  width="624"
-                  height="700"
-                  className="canvase"
-                ></canvas>
-              </div>
-            </div>
-          </div> */}
+          {/* video */}
+          <div data-aos-delay="1000" data-aos="fade-left">
+            <Footervideo />
+          </div>
         </div>
       </section>
     </div>

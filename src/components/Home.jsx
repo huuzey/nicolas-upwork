@@ -4,6 +4,7 @@ import Backvid from "./Backvid";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Roadmap from "./Roadmap";
+import { motion } from "framer-motion";
 import Listing from "./Listing";
 import Testimonial from "./Testimonial";
 
@@ -30,7 +31,7 @@ const Home = () => {
         data-aos="fade-right"
         className="w-full absolute top-0  mx-auto h-full     md:px-10 sm:mt-0 md:mt-7 z-0"
       >
-        <div className="max-w-7xl mx-auto sm:px-4 px-1.5 flex flex-row gap-1.5 items-start">
+        <div className="max-w-7xl mx-auto sm:px-4 px-1.5 flex flex-row gap-1.5 items-start relative">
           <div className="flex flex-col items-center justify-center mt-1">
             <div className="rounded-full bg-[#915EFF] w-5 h-5"></div>
             <div className=" viol w-1 sm:h-40 md:h-80 "></div>
@@ -49,12 +50,23 @@ const Home = () => {
               className="md:h-80 md:w-96 sm:h-40 sm:w-52"
             />
           </div>
+          <div className="text-red-600 w-full flex items-center justify-center sm:bottom-16 sm:left-28 md:left-0  absolute bottom-32">
+            <a href="#about">
+              <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[rgb(170,166,195)] flex justify-center items-start p-2">
+                <motion.div
+                  animate={{ y: [0, 23, 23, 0] }}
+                  transition={{ repeat: Infinity, duration: 4 }}
+                  className={` w-4 h-4 rounded-full bg-[rgb(170,166,195)] mb-1`}
+                ></motion.div>
+              </div>
+            </a>
+          </div>
         </div>
-        {/* <div className="absolute sm:bottom-10 bottom-32 md:w-3/4  flex justify-center items-center">
+        {/* <div className="absolute sm:bottom-10 bottom-32 md:w-full  flex justify-center items-center">
           <a href="#about">
-            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[rgb(170,166,195)] flex justify-center items-start p-2">
+            <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[rgb(48,40,103)] flex justify-center items-start p-2">
               <div
-                className={`translate-x-[${trans}] translate-y-[${trans}] w-1 h-4 rounded-full bg-[rgb(170,166,195)] mb-1`}
+                className={` w-4 h-4 rounded-full bg-[rgb(170,166,195)] mb-1`}
               ></div>
             </div>
           </a>

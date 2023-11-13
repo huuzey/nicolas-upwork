@@ -9,7 +9,7 @@ const Backvid = () => {
         autoPlay
         muted
         playsInline
-        className="aaspectvide sm:h-full border-0 md:h-full"
+        className="aaspectvide sm:h-full border-0 md:h-full "
       ></video>
     </div>
   );

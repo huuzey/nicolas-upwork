@@ -8,7 +8,7 @@ const Listing = () => {
   }, []);
   return (
     <div>
-      <section className="sm:px-16 px-5 sm:py-16 py-10 max-w-7xl mx-auto relative z-0">
+      <section className="sm:px-4 px-5 sm:py-4 py-2.5  max-w-7xl mx-auto relative z-0">
         <span>&nbsp;</span>
         {/* Listing header */}
         <div data-aos-delay="1000" data-aos="fade-right">

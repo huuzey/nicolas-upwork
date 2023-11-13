@@ -1,18 +1,12 @@
 import React from "react";
 import Piechart from "./Piechart";
-
 const Takenomics = () => {
   return (
-    <div className="relative w-full h-full ">
-      <img
-        src="/assets/hero.png"
-        alt="hero"
-        className="absolute top-0 right-0 left-0 bottom-0 "
-      />
-      <h1 className="font-bold text-white text-lg absolute top-1 left-4">
-        Takenomics
+    <div className="tokenbg w-full h-full flex flex-col ">
+      <h1 className="font-bold text-[rgb(170,166,195)] text-lg pt-3   flex items-center justify-center ">
+        Tokenomics
       </h1>
-      <div className="sm:flex sm:items-center sm:justify-end md:flex md:justify-center">
+      <div className="flex items-center justify-center  ">
         <Piechart />
       </div>
     </div>

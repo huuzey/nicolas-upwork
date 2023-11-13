@@ -26,14 +26,14 @@ const Testimonial = () => {
           </div>
         </div>
         {/* testimonias card */}
-        <div className="-mt-20 pb-14 sm:px-16 px-6 flex flex-wrap gap-7">
+        <div className="-mt-20 pb-14 sm:px-4 px-6 flex flex-wrap gap-7">
           {/* card one  */}
           <div
             data-aos-delay="1000"
             data-aos="flip-down"
             className="bg-[rgb(21,18,41)]  p-10 rounded-3xl sm:w-[320px] w-full"
           >
-            <p className="text-white font-black text-[48px]"></p>
+            <p className="text-white font-black text-[48px]">"</p>
             <div className="mt-1">
               <p className="text-white tracking-wider text-[18px]">
                 HYPE Meme Token is more than just a digital currency; it's a
@@ -67,7 +67,7 @@ const Testimonial = () => {
             data-aos="flip-down"
             className="bg-[rgb(21,18,41)]  p-10 rounded-3xl sm:w-[320px] w-full"
           >
-            <p className="text-white font-black text-[48px]"></p>
+            <p className="text-white font-black text-[48px]">"</p>
             <div className="mt-1">
               <p className="text-white tracking-wider text-[18px]">
                 HYPE Meme Token is more than just a digital currency; it's a
@@ -100,7 +100,7 @@ const Testimonial = () => {
             data-aos="flip-down"
             className="bg-[rgb(21,18,41)]  p-10 rounded-3xl sm:w-[320px] w-full"
           >
-            <p className="text-white font-black text-[48px]"></p>
+            <p className="text-white font-black text-[48px]">"</p>
             <div className="mt-1">
               <p className="text-white tracking-wider text-[18px]">
                 Holding HYPE Meme Token isn't just about watching numbers go up

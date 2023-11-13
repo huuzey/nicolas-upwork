@@ -211,7 +211,7 @@ const Roadmap = () => {
       {/* mobile view */}
       <div className="sm:flex flex-col xl:hidden overflow-x-hidden">
         {/* first quarter */}
-        <div className="flex justify-center items-center gap-2 relative">
+        <div className="flex justify-between  items-start  gap-6 relative">
           <div
             data-aos="fade-in"
             data-aos-delay="2000"
@@ -231,10 +231,10 @@ const Roadmap = () => {
             <div
               data-aos="fade-left"
               data-aos-delay="2000"
-              className="flex  sm:w-full md:w-1/2  bg-[rgb(29,24,54)] text-[rgb(255, 255, 255)] shadow border-b-4 rounded-b-md relative border-[#ddd] rounded px-1   "
+              className="flex  sm:w-full md:w-1/2 mt-6  bg-[rgb(29,24,54)] text-[rgb(255, 255, 255)] shadow border-b-4 rounded-b-md relative border-[#ddd] rounded    "
             >
               <div className="pokee"></div>
-              <div>
+              <div className="pl-4">
                 <div>
                   <h3 className="text-white text-[24px] font-bold">
                     Quarter 1
@@ -265,7 +265,7 @@ const Roadmap = () => {
           </div>
         </div>
         {/* second quarter */}
-        <div className="flex justify-center items-center gap-2">
+        <div className="flex justify-center items-start  gap-6">
           <div
             data-aos="fade-in"
             data-aos-delay="2000"
@@ -287,7 +287,7 @@ const Roadmap = () => {
               className="flex sm:w-full md:w-1/2  bg-[rgb(29,24,54)] text-[rgb(255, 255, 255)] shadow border-b-4 rounded-b-md relative border-[#ddd] rounded p-1   "
             >
               <div className="pokee"></div>
-              <div>
+              <div className="pl-4">
                 <div>
                   <h3 className="text-white text-[24px] font-bold">
                     Quarter 2
@@ -315,12 +315,13 @@ const Roadmap = () => {
           </div>
         </div>
         {/* third quarter */}
-        <div className="flex justify-center items-center gap-2">
+        <div className="flex justify-center items-start  gap-6">
           <div
             data-aos="fade-in"
             data-aos-delay="2000"
             className="flex flex-col items-center justify-between"
           >
+            <div className="befadsmo sm:flex lg:hidden sm:-mt-14 md:-mt-14 lg:mt-0"></div>
             <div className="focudsm rounded-full border-4 flex items-center justify-center ">
               <img
                 src="/assets/shopify.png"
@@ -334,10 +335,10 @@ const Roadmap = () => {
             <div
               data-aos="fade-left"
               data-aos-delay="2000"
-              className="flex sm:w-full md:w-1/2  bg-[rgb(29,24,54)] text-[rgb(255, 255, 255)] shadow border-b-4 rounded-b-md relative border-[#ddd] rounded p-1   "
+              className="flex sm:w-full md:w-1/2 mt-6 bg-[rgb(29,24,54)] text-[rgb(255, 255, 255)] shadow border-b-4 rounded-b-md relative border-[#ddd] rounded p-1   "
             >
               <div className="pokee"></div>
-              <div>
+              <div className="pl-4">
                 <div>
                   <h3 className="text-white text-[24px] font-bold">
                     Quarter 3
@@ -364,12 +365,14 @@ const Roadmap = () => {
           </div>
         </div>
         {/* fourth quarter */}
-        <div className="flex justify-center items-center gap-2">
+        <div className="flex justify-start items-start  gap-6 ">
           <div
             data-aos="fade-in"
             data-aos-delay="2000"
             className="flex flex-col items-center justify-between"
           >
+            <div className="befadsmo sm:flex lg:hidden sm:-mt-14 md:-mt-14 "></div>
+
             <div className="focudsmlr rounded-full border-4 flex items-center justify-center ">
               <img
                 src="/assets/meta.png"
@@ -377,16 +380,18 @@ const Roadmap = () => {
                 className=" w-5 h-[24px] flex rounded-full   "
               />
             </div>
-            <div className="ladrsmet"></div>
+            {/* <div className="ladrxd sm:flex md:hidden lg:hidden"></div> */}
+            <div className="ladrmd sm:hidden md:flex lg:hidden"></div>
+            <div className="ladrlg sm:hidden md:hidden lg:flex"></div>
           </div>
           <div>
             <div
               data-aos="fade-left"
               data-aos-delay="2000"
-              className="flex sm:w-full md:w-1/2  bg-[rgb(29,24,54)] text-[rgb(255, 255, 255)] shadow border-b-4 rounded-b-md relative border-[#ddd] rounded p-1   "
+              className="flex sm:w-full md:w-1/2 mt-6   bg-[rgb(29,24,54)] text-[rgb(255, 255, 255)] shadow border-b-4 rounded-b-md relative border-[#ddd] rounded p-1   "
             >
               <div className="pokee"></div>
-              <div>
+              <div className="pl-4">
                 <div>
                   <h3 className="text-white text-[24px] font-bold">
                     Quarter 4
@@ -395,7 +400,7 @@ const Roadmap = () => {
                     Long-term Sustainability
                   </p>
                 </div>
-                <ul className="mt-1 ml-1 space-y-2 list-disc px-8">
+                <ul className="mt-1 ml-1 space-y-2 list-disc px-8 ">
                   <li className="text-white text-[14px] pl-1 tracking-wider">
                     DApp Development: Begin the development of HYPE-themed
                     decentralized applications (DApps) to further enhance the
