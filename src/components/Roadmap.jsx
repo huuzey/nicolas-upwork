@@ -380,7 +380,7 @@ const Roadmap = () => {
                 className=" w-5 h-[24px] flex rounded-full   "
               />
             </div>
-            {/* <div className="ladrxd sm:flex md:hidden lg:hidden"></div> */}
+            <div className="ladrxd sm:flex md:hidden lg:hidden"></div>
             <div className="ladrmd sm:hidden md:flex lg:hidden"></div>
             <div className="ladrlg sm:hidden md:hidden lg:flex"></div>
           </div>
