@@ -12,7 +12,10 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route
+          path="https://react-web-design.onrender.com"
+          element={<Home />}
+        />
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/takenomics" element={<Takenomics />} />
         <Route path="/team" element={<Team />} />
