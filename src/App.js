@@ -6,7 +6,8 @@ import Footer from "./components/Footer";
 import Takenomics from "./components/Takenomics";
 import Team from "./components/Team";
 
-export const BASE_URL = "https://react-web-design.onrender.com";
+export const BASE_URL =
+  "https://6553481a551624452788009c--cosmic-belekoy-d3b27c.netlify.app/";
 function App() {
   return (
     <BrowserRouter>
