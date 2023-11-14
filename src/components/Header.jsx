@@ -29,19 +29,19 @@ const Header = () => {
           </li>
           <li className="text-[rgb(170,166,195)] hover:text-white text-[18px] font-medium">
             {" "}
-            <Link to="#contact">Contact</Link>
+            <a href="#contact">Contact</a>
           </li>
           <li>
             {" "}
-            <Link to="/roadmap">RoadMap</Link>
+            <a href="/roadmap">RoadMap</a>
           </li>
           <li>
             {" "}
-            <Link to="/takenomics">Tokenomics</Link>
+            <a href="/takenomics">Tokenomics</a>
           </li>
           <li>
             {" "}
-            <Link to="/team">Team</Link>
+            <a href="/team">Team</a>
           </li>
           <li>
             <a href="https://t.me/HMT_BEP20">
@@ -81,13 +81,13 @@ const Header = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li>
-                <Link to="/roadmap">RoadMap</Link>
+                <a href="/roadmap">RoadMap</a>
               </li>
               <li>
-                <Link to="/takenomics">Tokenomics</Link>
+                <a href="/takenomics">Tokenomics</a>
               </li>
               <li>
-                <Link to="/team">Team</Link>
+                <a href="/team">Team</a>
               </li>
               <li>
                 <a href="https://t.me/HMT_BEP20">

@@ -2,6 +2,7 @@
   "name": "nicolas",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://react-web-design.onrender.com",
   "dependencies": {
     "@nivo/pie": "^0.83.0",
     "@testing-library/jest-dom": "^5.17.0",
