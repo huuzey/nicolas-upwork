@@ -2,7 +2,7 @@
   "name": "nicolas",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://6553481a551624452788009c--cosmic-belekoy-d3b27c.netlify.app/",
+  "homepage": "https://react-web-design.onrender.com",
   "dependencies": {
     "@nivo/pie": "^0.83.0",
     "@testing-library/jest-dom": "^5.17.0",
