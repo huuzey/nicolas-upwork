@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { IoIosSend } from "react-icons/io";
 import { RxTwitterLogo } from "react-icons/rx";
 import { BASE_URL } from "../App";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -32,15 +33,15 @@ const Header = () => {
           </li>
           <li>
             {" "}
-            <a href={`${BASE_URL}/roadmap`}>RoadMap</a>
+            <Link to={`${BASE_URL}/roadmap`}>RoadMap</Link>
           </li>
           <li>
             {" "}
-            <a href={`${BASE_URL}/takenomics`}>Tokenomics</a>
+            <Link to={`${BASE_URL}/takenomics`}>Tokenomics</Link>
           </li>
           <li>
             {" "}
-            <a href={`${BASE_URL}/team`}>Team</a>
+            <Link to={`${BASE_URL}/team`}>Team</Link>
           </li>
           <li>
             <a href="https://t.me/HMT_BEP20">
@@ -80,13 +81,13 @@ const Header = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li>
-                <a href={`${BASE_URL}/roadmap`}>RoadMap</a>
+                <Link to={`${BASE_URL}/roadmap`}>RoadMap</Link>
               </li>
               <li>
-                <a href={`${BASE_URL}/takenomics`}>Tokenomics</a>
+                <Link to={`${BASE_URL}/takenomics`}>Tokenomics</Link>
               </li>
               <li>
-                <a href={`${BASE_URL}/team`}>Team</a>
+                <Link to={`${BASE_URL}/roadmap`}>Team</Link>
               </li>
               <li>
                 <a href="https://t.me/HMT_BEP20">

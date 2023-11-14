@@ -9,7 +9,7 @@ import Team from "./components/Team";
 export const BASE_URL = "https://react-web-design.onrender.com";
 function App() {
   return (
-    <BrowserRouter basename="">
+    <BrowserRouter>
       <Header />
 
       <Routes>
