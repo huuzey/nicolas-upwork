@@ -87,7 +87,7 @@ const Header = () => {
                 <Link to={`${BASE_URL}/takenomics`}>Tokenomics</Link>
               </li>
               <li>
-                <Link to={`${BASE_URL}/roadmap`}>Team</Link>
+                <Link to={`${BASE_URL}/team`}>Team</Link>
               </li>
               <li>
                 <a href="https://t.me/HMT_BEP20">
