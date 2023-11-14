@@ -14,7 +14,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path={`${ROOT_URL}/roadmap`} element={<Roadmap />} />
+        <Route
+          path="https://react-web-design.onrender.com/roadmap"
+          element={<Roadmap />}
+        />
         <Route path={`${ROOT_URL}/takenomics`} element={<Takenomics />} />
         <Route path={`${ROOT_URL}/team`} element={<Team />} />
       </Routes>
