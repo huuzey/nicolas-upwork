@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { IoIosSend } from "react-icons/io";
 import { RxTwitterLogo } from "react-icons/rx";
 import { ROOT_URL } from "../App";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -28,19 +29,19 @@ const Header = () => {
           </li>
           <li className="text-[rgb(170,166,195)] hover:text-white text-[18px] font-medium">
             {" "}
-            <a href="#contact">Contact</a>
+            <Link to="#contact">Contact</Link>
           </li>
           <li>
             {" "}
-            <a href={`${ROOT_URL}/roadmap`}>RoadMap</a>
+            <Link to="/roadmap">RoadMap</Link>
           </li>
           <li>
             {" "}
-            <a href={`${ROOT_URL}/takenomics`}>Tokenomics</a>
+            <Link to="/takenomics">Tokenomics</Link>
           </li>
           <li>
             {" "}
-            <a href={`${ROOT_URL}/team`}>Team</a>
+            <Link to="/team">Team</Link>
           </li>
           <li>
             <a href="https://t.me/HMT_BEP20">
@@ -80,15 +81,13 @@ const Header = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li>
-                <a href="https://react-web-design.onrender.com/roadmap">
-                  RoadMap
-                </a>
+                <Link to="/roadmap">RoadMap</Link>
               </li>
               <li>
-                <a href={`${ROOT_URL}/takenomics`}>Tokenomics</a>
+                <Link to="/takenomics">Tokenomics</Link>
               </li>
               <li>
-                <a href={`${ROOT_URL}/team`}>Team</a>
+                <Link to="/team">Team</Link>
               </li>
               <li>
                 <a href="https://t.me/HMT_BEP20">

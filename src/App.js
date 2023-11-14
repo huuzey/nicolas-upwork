@@ -5,21 +5,17 @@ import Roadmap from "./components/Roadmap";
 import Footer from "./components/Footer";
 import Takenomics from "./components/Takenomics";
 import Team from "./components/Team";
-export const ROOT_URL = "https://react-web-design.onrender.com";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="https://react-web-design.onrender.com/roadmap">
       <Header />
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route
-          path="https://react-web-design.onrender.com/roadmap"
-          element={<Roadmap />}
-        />
-        <Route path={`${ROOT_URL}/takenomics`} element={<Takenomics />} />
-        <Route path={`${ROOT_URL}/team`} element={<Team />} />
+        <Route path="/roadmap" element={<Roadmap />} />
+        <Route path="/takenomics" element={<Takenomics />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
       <Footer />
     </BrowserRouter>
