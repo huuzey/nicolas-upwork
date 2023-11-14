@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { IoIosSend } from "react-icons/io";
 import { RxTwitterLogo } from "react-icons/rx";
-import { ROOT_URL } from "../App";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
