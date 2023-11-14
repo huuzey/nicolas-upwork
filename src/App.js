@@ -6,16 +6,17 @@ import Footer from "./components/Footer";
 import Takenomics from "./components/Takenomics";
 import Team from "./components/Team";
 
+export const BASE_URL = "https://react-web-design.onrender.com";
 function App() {
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="">
       <Header />
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/roadmap" element={<Roadmap />} />
-        <Route path="/takenomics" element={<Takenomics />} />
-        <Route path="/team" element={<Team />} />
+        <Route path={`${BASE_URL}/roadmap`} element={<Roadmap />} />
+        <Route path={`${BASE_URL}/takenomics`} element={<Takenomics />} />
+        <Route path={`${BASE_URL}/team`} element={<Team />} />
       </Routes>
       <Footer />
     </BrowserRouter>

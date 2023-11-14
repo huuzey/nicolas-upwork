@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { IoIosSend } from "react-icons/io";
 import { RxTwitterLogo } from "react-icons/rx";
+import { BASE_URL } from "../App";
 
 const Header = () => {
   const [menu, setMenu] = useState(false);
@@ -31,15 +32,15 @@ const Header = () => {
           </li>
           <li>
             {" "}
-            <a href="/roadmap">RoadMap</a>
+            <a href={`${BASE_URL}/roadmap`}>RoadMap</a>
           </li>
           <li>
             {" "}
-            <a href="/takenomics">Tokenomics</a>
+            <a href={`${BASE_URL}/takenomics`}>Tokenomics</a>
           </li>
           <li>
             {" "}
-            <a href="/team">Team</a>
+            <a href={`${BASE_URL}/team`}>Team</a>
           </li>
           <li>
             <a href="https://t.me/HMT_BEP20">
@@ -79,13 +80,13 @@ const Header = () => {
                 <a href="#contact">Contact</a>
               </li>
               <li>
-                <a href="/roadmap">RoadMap</a>
+                <a href={`${BASE_URL}/roadmap`}>RoadMap</a>
               </li>
               <li>
-                <a href="/takenomics">Tokenomics</a>
+                <a href={`${BASE_URL}/takenomics`}>Tokenomics</a>
               </li>
               <li>
-                <a href="/team">Team</a>
+                <a href={`${BASE_URL}/team`}>Team</a>
               </li>
               <li>
                 <a href="https://t.me/HMT_BEP20">
