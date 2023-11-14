@@ -8,7 +8,7 @@ import Team from "./components/Team";
 
 function App() {
   return (
-    <BrowserRouter basename="https://react-web-design.onrender.com">
+    <BrowserRouter basename="/">
       <Header />
 
       <Routes>
